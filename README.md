@@ -3,9 +3,9 @@
 
 ##### This is purely backend programming with no UI
 
-The progream starts by declaring an array of 30 integers and filling it with random numbers between 1 and 58. The array is then printed to the console and to a file called output.txt.
+The program starts by declaring an array of 30 integers and filling it with random numbers between 1 and 58. The array is then printed to the console and to a file called output.txt.
 
-###### Stucture of the nodes in the linked list
+###### Structure of the nodes in the linked list
 ```
 struct node{
   int value;
@@ -39,7 +39,7 @@ void addNode(node * currentNode, int val){
   }
 }
 ```
-A new aray is declared which will store each integer which was repeated in the original array. The function finds each node that has a "number" value greater than 1, and adds it to the new array. The result is An ordered array with all repeated numbers along with the number of times they were repeated.
+A new array is declared which will store each integer which was repeated in the original array. The function finds each node that has a "number" value greater than 1, and adds it to the new array. The result is an ordered array with all repeated numbers along with the number of times they were repeated.
 
 #### Example output
 
